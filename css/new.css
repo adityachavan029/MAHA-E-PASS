@@ -1,0 +1,284 @@
+
+        body {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+
+        ::-webkit-scrollbar {
+            width: 0px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #FF0000;
+        }
+
+
+
+        @media screen and (max-width: 1281px) {
+            .d-product.d {
+                width: 320px;
+            }
+
+            .grid-parent {
+                transform: scale(0.9);
+            }
+        }
+
+
+
+        /* Landscape */
+
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+
+            .container-65-ap.flex-c {
+                width: 600px;
+                min-width: 600px;
+            }
+
+            .side-bg {
+                left: 12vw;
+                width: 900px;
+                height: 900px;
+                margin-top: 44px;
+            }
+
+            .pulse-parent-left {
+                left: 12%;
+
+            }
+
+            .pulse-parent-right {
+                right: 12%;
+            }
+
+            .charger {
+                margin-bottom: -50px;
+            }
+
+        }
+
+
+        /* Portrait */
+
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+
+            .side-bg {
+                left: 20%;
+                width: 200%;
+                height: 85vh;
+            }
+
+        }
+
+
+        /* Landscape */
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+            .overlay-mobile {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                background-color: #be5a49;
+            }
+        }
+
+
+
+        @media screen and (min-width: 1800px) {
+
+            .d-product.d {
+                width: 500px;
+            }
+
+            p {
+                font-size: 28px;
+                line-height: 36px
+            }
+
+            .grid-parent {
+                width: 2174px;
+
+            }
+
+            .grid-bg {
+                width: 2174px;
+                height: 1020px;
+            }
+
+            .product-moon {
+                top: 154px;
+                width: 395px;
+                margin-left: -7px;
+            }
+
+            .add-top-50 {
+                margin-top: -120px;
+            }
+
+            .hide-m {
+                font-size: 28px;
+                line-height: 38px;
+            }
+
+            .iphone-features-img {
+                width: 340px;
+                max-width: 340px;
+            }
+
+            .spectrum-txt {
+                line-height: 36px;
+                font-size: 20px;
+            }
+
+            .num-lg-txt {
+                font-size: 55px;
+                line-height: 55px;
+            }
+
+            .num-lg-txt-left {
+                font-size: 55px;
+                line-height: 55px;
+            }
+
+            .side {
+                width: 400px;
+            }
+
+            .side-red {
+                width: 400px;
+            }
+
+            .side-orange {
+                width: 400px;
+            }
+
+            .side-white {
+                width: 400px;
+            }
+
+            .pulse-parent-left {
+                left: 30%;
+            }
+
+            .pulse-parent-right {
+                right: 30%;
+            }
+
+            .sub-txt {
+                font-size: 28px;
+                line-height: 42px;
+            }
+
+            .num-lg-txt-v-tl {
+                font-size: 55px;
+                line-height: 55px;
+            }
+
+            .num-lg-txt-v-tl {
+                font-size: 55px;
+                line-height: 55px;
+            }
+
+            .spectrum-txt-v-t {
+                line-height: 34px;
+                font-size: 20px;
+            }
+
+            .spectrum-txt-1 {
+                line-height: 34px;
+                font-size: 20px;
+            }
+
+            .phone-case {
+                width: 360px;
+            }
+
+            .light-sm {
+                width: 95px;
+                left: 9vw
+            }
+
+            .container-65.push-left {
+                margin-top: -300px;
+            }
+
+            .add-top {
+                margin-top: 12%;
+            }
+
+            .sub-head {
+                font-size: 24px;
+                line-height: 26px;
+            }
+
+            .screen-parent {
+                width: 312px;
+                max-width: 312px;
+                height: 665px;
+            }
+
+            .img-2-warm {
+                max-width: 350px;
+            }
+
+            .img-2 {
+                max-width: 350px;
+            }
+
+            .img-1-fade {
+                max-width: 350px;
+            }
+
+            .img-1 {
+                max-width: 350px;
+            }
+
+            .moon-parent {
+                top: 73px;
+                right: 253px;
+            }
+
+            .container-65 {
+                max-width: 1400px;
+            }
+
+            .side-bg {
+                left: 25vw;
+                width: 1430px;
+                height: 1000px;
+            }
+
+            .slider-side-parent {
+                display: none;
+            }
+
+            .charger {
+                display: none;
+            }
+
+        }
+    
+        .m-hero-logo {
+            transform: translateZ(0);
+        }
+
+        .d-product {
+            transform: translateZ(0);
+        }
+
+        .w-input:focus,
+        .w-select:focus {
+            border-color: #ffffff !important;
+            background-color: rgb(255, 255, 255, 0) !important;
+
+        }
+
+        input:-internal-autofill-selected {
+            background-color: rgb(255, 255, 255, 0) !important;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
