@@ -61,11 +61,12 @@ Here are some important modules and components used across the system:
 1. **Clone the repository**
    ```bash
    git clone https://github.com/adityachavan029/MAHA-E-PASS.git
-##📬 Contact
-👨‍💻 Developer: Aditya Chavan
-📧 Email: adityachavan029@gmail.com
-🔗 GitHub: @adityachavan029
-📍 Location: Maharashtra, India
 
-Feel free to reach out for collaborations, feedback, or suggestions!
+## 📬 Contact
+-👨‍💻 Developer: Aditya Chavan
+-📧 Email: adityachavan0290@gmail.com
+-🔗 GitHub: @adityachavan029
+-📍 Location: Maharashtra, India
+
+- Feel free to reach out for collaborations, feedback, or suggestions!
 
